@@ -1,0 +1,23 @@
+.heading {
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-weight: bold;
+}
+.heading1 {
+  font-size: 2rem;
+}
+.heading2 {
+  font-size: 1.8rem;
+}
+.heading3 {
+  font-size: 1.6rem;
+}
+.heading4 {
+  font-size: 1.4rem;
+}
+.heading5 {
+  font-size: 1.2rem;
+}
+.heading6 {
+  font-size: 1rem;
+}

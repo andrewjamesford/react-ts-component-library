@@ -34,7 +34,9 @@ export const Button = ({
   label,
   ...props
 }: ButtonProps) => {
+  // The mode will be used to show either the primary or secondary button styles
   const mode = primary ? styles.buttonPrimary : styles.buttonSecondary;
+  // The size class will be used to select the correct CSS class
   let sizeClass = styles.buttonMedium;
   if (size === "small") {
     sizeClass = styles.buttonSmall;
@@ -46,7 +48,7 @@ export const Button = ({
   return (
     <button
       type="button"
-      className={[`${styles.button}`, `${sizeClass}`, mode].join(" ")}
+      className={[`${styles.button}`, sizeClass, mode].join(" ")}
       style={{ backgroundColor }}
       {...props}
     >
