@@ -1,0 +1,1 @@
+This material is available for private, non-commercial use under the [GPL version 3](https://www.gnu.org/licenses/gpl-3.0-standalone.html). If you would like to use this material in a commercial situation, please contact me at [me@andrewford.co.nz](mailto:me@andrewford.co.nz)
